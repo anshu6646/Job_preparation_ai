@@ -2,6 +2,11 @@
 
 An AI-powered interview preparation platform that analyzes a candidate's profile and a target job description to generate personalized interview questions, skill-gap analysis, match scores, and a structured preparation roadmap.
 
+🔗 **Live Demo:** [careerprep-ai-frontend.onrender.com](https://careerprep-ai-frontend.onrender.com)
+
+> Hosted on a free tier, so the first load may take up to a minute.
+> **Demo login:** `demo@example.com` / `Demo@1234`
+
 ## Features
 
 * User Authentication with JWT
@@ -14,6 +19,16 @@ An AI-powered interview preparation platform that analyzes a candidate's profile
 * Skill Gap Identification
 * Interview History Tracking
 * Resume Download Support
+
+## Screenshots
+
+| Dashboard | Interview Report |
+|---|---|
+| ![Dashboard](screenshots/dashboard.png) | ![Report](screenshots/report.png) |
+
+| Skill Gap & Roadmap | Login |
+|---|---|
+| ![Roadmap](screenshots/roadmap.png) | ![Login](screenshots/login.png) |
 
 ## Tech Stack
 
@@ -34,6 +49,8 @@ An AI-powered interview preparation platform that analyzes a candidate's profile
 * JWT Authentication
 * Multer
 * PDF Parser
+* Puppeteer
+* Zod
 
 ### AI
 
@@ -58,8 +75,8 @@ An AI-powered interview preparation platform that analyzes a candidate's profile
 ### Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd project-name
+git clone https://github.com/anshu6646/Job_preparation_ai.git
+cd Job_preparation_ai.git
 ```
 
 ### Backend Setup
@@ -115,6 +132,6 @@ http://localhost:3000
 
 
 ## Author
-Anshu
+Anshu Dhaker
 
 Built using React, Node.js, MongoDB, and Google Gemini AI.
